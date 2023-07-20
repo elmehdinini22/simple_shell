@@ -23,7 +23,7 @@ void handle_signal(int m);
 char **tokenizer(char *line);
 char *test_path(char **path, char *command);
 char *append_path(char *path, char *command);
-int handle_builtin(char **command, char *line);
+int cmd_ builtin(char **command, char *line);
 void exit_ccmd(char **command, char *line);
 
 void print_env(void);
@@ -39,7 +39,7 @@ void execution(char *cp, char **cmd);
 char *find_path(void);
 
 /* helper function for efficient free */
-void free_buffers(char **buf);
+void free_function(char **buf);
 
 struct builtin
 {
