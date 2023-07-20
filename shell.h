@@ -21,7 +21,7 @@ int checker(char **cmd, char *buf);
 void propt_user(void);
 void handle_signal(int m);
 char **tokenizer(char *line);
-char *test_path(char **path, char *command);
+char *testa_path(char **path, char *command);
 char *append_path(char *path, char *command);
 int cmd_ builtin(char **command, char *line);
 void exit_ccmd(char **command, char *line);
