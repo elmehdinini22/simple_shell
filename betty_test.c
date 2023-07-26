@@ -6,7 +6,7 @@
  */
 void betty_test(void)
 {
-    char *str = "passe betty checker\n";
-    write(2, str, sizeof(str) - 1);
+char *str = "passe betty checker\n";
+write(2, str, sizeof(str) - 1);
 }
 

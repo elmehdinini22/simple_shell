@@ -32,7 +32,6 @@ void handle_signal(int m);
 char **token(char *line);
 char *testa_path(char **path, char *command);
 char *append_path(char *path, char *command);
-int cmd_ builtin(char **command, char *line);
 void exit_ccmd(char **command, char *line);
 
 void print_env(void);
