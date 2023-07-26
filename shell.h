@@ -118,4 +118,10 @@ int replace_cmd_alias(info_t *info);
 void check_chain_status(info_t *info, char *buf, size_t *p, size_t i, size_t len);
 int is_chain_delimiter(info_t *info, char *buf, size_t *p);
 int is_delim(char ch, const char *delimiters);
+/* Environ */
+int _myenv(info_t *info);
+char *_getenv(info_t *info, const char *name);
+int _mysetenv(info_t *info);
+int _myunsetenv(info_t *info);
+int populate_env_list(info_t *info);
 #endif /* SHELL_H */
